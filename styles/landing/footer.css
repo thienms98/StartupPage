@@ -1,0 +1,17 @@
+footer{
+  margin-top: 54px;
+  padding: 51px 131px;
+  background: var(--primary-color);
+  color: var(--light-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 900px){
+  footer{
+    flex-direction: column;
+    gap: 20px;
+  }
+}
